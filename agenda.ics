@@ -4,7 +4,7 @@ PRODID:-//Kerkdiensten//NL
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:20260104T093000-0@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260104T093000
 DTEND:20260104T103000
 SUMMARY:Rien | Pieter Willem | Mattias
@@ -15,17 +15,17 @@ DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten / Spakenburg)\n\nBijzonde
 END:VEVENT
 BEGIN:VEVENT
 UID:20260104T163000-1@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260104T163000
 DTEND:20260104T173000
-SUMMARY:Rien | Pieter Willem | 2026-01-01 00:00:00
+SUMMARY:Rien | Pieter Willem | Justin
 DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
   bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Rie
- n\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: 2026-01-01 00:00:00
+ n\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260111T093000-3@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260111T093000
 DTEND:20260111T103000
 SUMMARY:Joël | Daan | Mattias
@@ -36,40 +36,40 @@ DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nKring
 END:VEVENT
 BEGIN:VEVENT
 UID:20260111T163000-4@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260111T163000
 DTEND:20260111T173000
-SUMMARY:Joël | Daan | 2026-01-01 00:00:00
+SUMMARY:Joël | Daan | Justin
 DESCRIPTION:Voorganger: M.J. Hag (Utrecht - Leische Rijn)\n\nBijzonderheden
  :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Nederlands Bijbelgenootsch
  ap\n\nOverig:\n- Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding
- : 2026-01-01 00:00:00
+ : Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260118T093000-6@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260118T093000
 DTEND:20260118T103000
-SUMMARY:Ruben Heijloo | Rien Smith | Justin vd Heuvel
+SUMMARY:Ruben Heijloo | Rien Smith | Justin
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
  \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n- L
  ivestream: Ruben Heijloo\n- Geluidstechnicus: Rien Smith\n- Begeleiding: J
- ustin vd Heuvel
+ ustin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260118T163000-8@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260118T163000
 DTEND:20260118T173000
-SUMMARY:Ruben Heijloo | Rien Smith | Justin vd Heuvel
+SUMMARY:Ruben Heijloo | Rien Smith | Justin
 DESCRIPTION:Voorganger: Preeklezen br. Ard van Oosterum\n\nBijzonderheden:\
  nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n- Li
  vestream: Ruben Heijloo\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Ju
- stin vd Heuvel
+ stin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260125T093000-10@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260125T093000
 DTEND:20260125T103000
 SUMMARY:Ruben Boogerd | EvertJan | Mattias
@@ -80,61 +80,61 @@ DESCRIPTION:Voorganger: Ds. W. van Veelen\n\nBijzonderheden:\nKoffiedrinken
 END:VEVENT
 BEGIN:VEVENT
 UID:20260125T163000-11@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260125T163000
 DTEND:20260125T173000
-SUMMARY:Ruben Boogerd | EvertJan | Justin vd Heuvel
+SUMMARY:Ruben Boogerd | EvertJan | Justin
 DESCRIPTION:Voorganger: B.C. Buitendijk (Bunschoten-Oost)\n\nBijzonderheden
  :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: De Verre Naasten\n\nOverig
  :\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: EvertJan\n- Begeleidin
- g: Justin vd Heuvel
+ g: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260201T093000-13@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260201T093000
 DTEND:20260201T103000
-SUMMARY:Rien | Pieter Willem
+SUMMARY:Rien | Pieter Willem | Mattias
 DESCRIPTION:Voorganger: Ds. P. Hommes (Leusden)\n\nBijzonderheden:\nKringwe
  ek februari + Heilig Avond - Zittend\n\nCollectes:\n- 1e: Niet bekend\n- 2
  e: Diaconie\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Pieter Wil
- lem\n- Begeleiding: Niet bekend
+ lem\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260201T160000-14@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260201T160000
 DTEND:20260201T170000
-SUMMARY:Rien | Pieter Willem
+SUMMARY:Rien | Pieter Willem | Mattias
 DESCRIPTION:Voorganger: Ds. J.M. Haak (Dordrecht)\n\nBijzonderheden:\nHeili
  g Avondmaal - Zittend\n\nCollectes:\n- 1e: Niet bekend\n- 2e: Diaconie\n\n
  Overig:\n- Livestream: Rien\n- Geluidstechnicus: Pieter Willem\n- Begeleid
- ing: Niet bekend
+ ing: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260208T093000-16@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260208T093000
 DTEND:20260208T103000
-SUMMARY:Joël | Daan
+SUMMARY:Joël | Daan | Justin
 DESCRIPTION:Voorganger: Ds. P.C. Colijn (Hardinxveld - Giessendam)\n\nBijzo
  nderheden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOv
- erig:\n- Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding: Niet b
- ekend
+ erig:\n- Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding: Justin
+ 
 END:VEVENT
 BEGIN:VEVENT
 UID:20260208T163000-17@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260208T163000
 DTEND:20260208T173000
-SUMMARY:Joël | Daan
+SUMMARY:Joël | Daan | Mattias
 DESCRIPTION:Voorganger: Preeklezen br. Wim van der Mijden\n\nBijzonderheden
  :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- 
- Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding: Niet bekend
+ Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260215T103000-19@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260215T103000
 DTEND:20260215T113000
 SUMMARY:Ruben Boogerd | Pieter Willem | Justin
@@ -145,289 +145,285 @@ DESCRIPTION:Voorganger: Daniël van der Ham\n\nBijzonderheden:\nJeugddienst
 END:VEVENT
 BEGIN:VEVENT
 UID:20260215T163000-20@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260215T163000
 DTEND:20260215T173000
-SUMMARY:Ruben Boogerd | Pieter Willem | 2026-01-01 00:00:00
+SUMMARY:Ruben Boogerd | Pieter Willem | Justin
 DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
   bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Youth Alpha\n\nOverig:\n- Livestr
- eam: Ruben Boogerd\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: 2026
- -01-01 00:00:00
+ eam: Ruben Boogerd\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: Just
+ in
 END:VEVENT
 BEGIN:VEVENT
 UID:20260222T093000-22@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260222T093000
 DTEND:20260222T103000
-SUMMARY:Joël | Rien Smith
+SUMMARY:Joël | Rien Smith | Mattias
 DESCRIPTION:Voorganger: Preeklezen br. Tjerk Medemblik\n\nBijzonderheden:\n
  Niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dit Koningskind\n\nOverig:\n-
-  Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet bek
- end
+  Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260222T163000-23@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260222T163000
 DTEND:20260222T173000
-SUMMARY:Joël | Rien Smith
+SUMMARY:Joël | Rien Smith | Justin
 DESCRIPTION:Voorganger: B.C. Buitendijk (Bunschoten-Oost)\n\nBijzonderheden
  :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dit Koningskind\n\nOverig:
- \n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet 
- bekend
+ \n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Justi
+ n
 END:VEVENT
 BEGIN:VEVENT
 UID:20260301T093000-25@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260301T093000
 DTEND:20260301T103000
-SUMMARY:Ruben Heijloo | EvertJan
+SUMMARY:Ruben Heijloo | EvertJan | Justin
 DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nNiet 
  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltijd\n\nOverig
  :\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- Begeleidin
- g: Niet bekend
+ g: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260301T163000-26@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260301T163000
 DTEND:20260301T173000
-SUMMARY:Ruben Heijloo | EvertJan
+SUMMARY:Ruben Heijloo | EvertJan | Mattias
 DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
  \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltijd\n\
  nOverig:\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- Beg
- eleiding: Niet bekend
+ eleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260308T093000-28@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260308T093000
 DTEND:20260308T103000
-SUMMARY:Rien | Daan
+SUMMARY:Rien | Daan | Mattias
 DESCRIPTION:Voorganger: Ds. R.J.A. (Robert) Doornenbal (Houten)\n\nBijzonde
  rheden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: European Christian M
  ission\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Begelei
- ding: Niet bekend
+ ding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260308T163000-29@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260308T163000
 DTEND:20260308T173000
-SUMMARY:Rien | Daan
+SUMMARY:Rien | Daan | Mattias
 DESCRIPTION:Voorganger: Drs. K. de Graaf (Kampen)\n\nBijzonderheden:\nNiet 
  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: European Christian Mission\n\nOver
- ig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Begeleiding: Niet bek
- end
+ ig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260311T193000-31@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260311T193000
 DTEND:20260311T203000
-SUMMARY:Joël | Peter
+SUMMARY:Joël | Peter | Justin
 DESCRIPTION:Voorganger: Preeklezen br. Wim van der Mijden\n\nBijzonderheden
  :\nBiddag/gezamenlijke dienst NGK's in de Hoeksteen\n\nCollectes:\n- 1e: K
  erk\n- 2e: Dorcas\n\nOverig:\n- Livestream: Joël\n- Geluidstechnicus: Pete
- r\n- Begeleiding: Niet bekend
+ r\n- Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260315T093000-33@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260315T093000
 DTEND:20260315T103000
-SUMMARY:Ruben Boogerd | Rien Smith
+SUMMARY:Ruben Boogerd | Rien Smith | Mattias
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
  \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n-
   Livestream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleiding:
-  Niet bekend
+  Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260315T163000-35@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260315T163000
 DTEND:20260315T173000
-SUMMARY:Ruben Boogerd | Rien Smith
+SUMMARY:Ruben Boogerd | Rien Smith | Justin
 DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
   bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Lives
- tream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet 
- bekend
+ tream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Justi
+ n
 END:VEVENT
 BEGIN:VEVENT
 UID:20260322T093000-37@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260322T093000
 DTEND:20260322T103000
-SUMMARY:Ruben Heijloo | Pieter Willem
+SUMMARY:Ruben Heijloo | Pieter Willem | Mattias
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nN
  iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: 
- Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: Niet beke
- nd
+ Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260322T163000-38@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260322T163000
 DTEND:20260322T173000
-SUMMARY:Ruben Heijloo | Pieter Willem
+SUMMARY:Ruben Heijloo | Pieter Willem | Justin
 DESCRIPTION:Voorganger: Ds. A. Wilschut (Berkel en Rodenrijs)\n\nBijzonderh
  eden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Live
- stream: Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: N
- iet bekend
+ stream: Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: J
+ ustin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260329T093000-40@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260329T093000
 DTEND:20260329T103000
-SUMMARY:Rien | EvertJan
+SUMMARY:Rien | EvertJan | Justin
 DESCRIPTION:Voorganger: Ds. M.J. Hagg (Utrecht - Leische Rijn)\n\nBijzonder
  heden:\nKoffiedrinken na de dienst (Kring 3)\n\nCollectes:\n- 1e: Kerk\n- 
  2e: Woord en Daad\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Ever
- tJan\n- Begeleiding: Niet bekend
+ tJan\n- Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260329T163000-41@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260329T163000
 DTEND:20260329T173000
-SUMMARY:Rien | EvertJan
+SUMMARY:Rien | EvertJan | Mattias
 DESCRIPTION:Voorganger: Ds. C. van Zwol (Spakenburg)\n\nBijzonderheden:\nNi
  et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Woord en Daad\n\nOverig:\n- Liv
- estream: Rien\n- Geluidstechnicus: EvertJan\n- Begeleiding: Niet bekend
+ estream: Rien\n- Geluidstechnicus: EvertJan\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260405T093000-45@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260405T093000
 DTEND:20260405T103000
-SUMMARY:Joël | Peter
+SUMMARY:Joël | Peter | Mattias
 DESCRIPTION:Voorganger: Ds. Anne Rienks\n\nBijzonderheden:\n1e paasdag\n\nC
  ollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Joël\n-
-  Geluidstechnicus: Peter\n- Begeleiding: Niet bekend
+  Geluidstechnicus: Peter\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260405T163000-46@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260405T163000
 DTEND:20260405T173000
-SUMMARY:Joël | Peter
+SUMMARY:Joël | Peter | Justin
 DESCRIPTION:Voorganger: Ds. G. Oosterhuis (Langerak)\n\nBijzonderheden:\nNi
  et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Lives
- tream: Joël\n- Geluidstechnicus: Peter\n- Begeleiding: Niet bekend
+ tream: Joël\n- Geluidstechnicus: Peter\n- Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260412T093000-48@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260412T093000
 DTEND:20260412T103000
-SUMMARY:Ruben Boogerd | Daan
+SUMMARY:Ruben Boogerd | Daan | Mattias
 DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nKring
  week april\, Verkiezing ambtsdragers\n\nCollectes:\n- 1e: Kerk\n- 2e: Open
   Doors\n\nOverig:\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: Daan\n
- - Begeleiding: Niet bekend
+ - Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260412T163000-49@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260412T163000
 DTEND:20260412T173000
-SUMMARY:Ruben Boogerd | Daan
+SUMMARY:Ruben Boogerd | Daan | Justin
 DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten/Spakenburg)\n\nBijzonderh
  eden:\nBelijdenisdienst Denise en Wilbert\n\nCollectes:\n- 1e: Kerk\n- 2e:
   Open Doors\n\nOverig:\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: D
- aan\n- Begeleiding: Niet bekend
+ aan\n- Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260419T103000-51@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260419T103000
 DTEND:20260419T113000
-SUMMARY:Rien | Pieter Willem
+SUMMARY:Rien | Pieter Willem | Justin
 DESCRIPTION:Voorganger: Br. A. Oussoren\n\nBijzonderheden:\nJeugddienst + k
  offiedrinken voor en na de dienst (kring 4)\n\nCollectes:\n- 1e: Kerk\n- 2
  e: VSE\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Pieter Willem\n
- - Begeleiding: Niet bekend
+ - Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260419T163000-52@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260419T163000
 DTEND:20260419T173000
-SUMMARY:Rien | Pieter Willem
+SUMMARY:Rien | Pieter Willem | Mattias
 DESCRIPTION:Voorganger: Ds. M. Tel (Zaltbommel)\n\nBijzonderheden:\nNiet be
  kend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Rien\n
- - Geluidstechnicus: Pieter Willem\n- Begeleiding: Niet bekend
+ - Geluidstechnicus: Pieter Willem\n- Begeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260426T093000-54@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260426T093000
 DTEND:20260426T103000
-SUMMARY:Ruben Heijloo | EvertJan
+SUMMARY:Ruben Heijloo | EvertJan | Justin
 DESCRIPTION:Voorganger: Ds. J. Sytsma (Nieuwegein)\n\nBijzonderheden:\nHeil
  ig Avondmaal - Lopend\n\nCollectes:\n- 1e: Niet bekend\n- 2e: Diaconie\n\n
  Overig:\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- Bege
- leiding: Niet bekend
+ leiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260426T163000-55@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260426T163000
 DTEND:20260426T173000
-SUMMARY:Ruben Heijloo | EvertJan
+SUMMARY:Ruben Heijloo | EvertJan | Mattias
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nH
  eilig Avondmaal - Lopend\n\nCollectes:\n- 1e: Niet bekend\n- 2e: Diaconie\
  n\nOverig:\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- B
- egeleiding: Niet bekend
+ egeleiding: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260503T093000-57@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260503T093000
 DTEND:20260503T103000
-SUMMARY:Joël | Rien Smith
+SUMMARY:Joël | Rien Smith | Mattias
 DESCRIPTION:Voorganger: Preeklezen br. Tjerk Medemblik\n\nBijzonderheden:\n
  Kringweek mei\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\nOve
- rig:\n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: N
- iet bekend
+ rig:\n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: M
+ attias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260503T163000-58@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260503T163000
 DTEND:20260503T173000
-SUMMARY:Joël | Rien Smith
+SUMMARY:Joël | Rien Smith | Justin
 DESCRIPTION:Voorganger: Preeklezen br. John Meeuwsen\n\nBijzonderheden:\nNi
  et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\nOverig:
- \n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet 
- bekend
+ \n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Justi
+ n
 END:VEVENT
 BEGIN:VEVENT
 UID:20260510T093000-60@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260510T093000
 DTEND:20260510T103000
-SUMMARY:Ruben Boogerd | Daan
+SUMMARY:Ruben Boogerd | Daan | Justin
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nN
  iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Li
- vestream: Ruben Boogerd\n- Geluidstechnicus: Daan\n- Begeleiding: Niet bek
- end
+ vestream: Ruben Boogerd\n- Geluidstechnicus: Daan\n- Begeleiding: Justin
 END:VEVENT
 BEGIN:VEVENT
 UID:20260510T163000-62@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260510T163000
 DTEND:20260510T173000
-SUMMARY:Ruben Boogerd | Daan
+SUMMARY:Ruben Boogerd | Daan | Mattias
 DESCRIPTION:Voorganger: Ds. P.C. Colijn (Hardinxveld - Giessendam)\n\nBijzo
  nderheden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\n
  Overig:\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: Daan\n- Begeleid
- ing: Niet bekend
+ ing: Mattias
 END:VEVENT
 BEGIN:VEVENT
 UID:20260514T093000-64@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260514T093000
 DTEND:20260514T103000
 SUMMARY:Rien
@@ -438,7 +434,7 @@ DESCRIPTION:Voorganger: Preeklezen br. Wim van der Mijden\n\nBijzonderheden
 END:VEVENT
 BEGIN:VEVENT
 UID:20260517T093000-66@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260517T093000
 DTEND:20260517T103000
 SUMMARY:Geen bezetting
@@ -448,7 +444,7 @@ DESCRIPTION:Voorganger: G.P. Hommes (Leusden)\n\nBijzonderheden:\nBelijdeni
 END:VEVENT
 BEGIN:VEVENT
 UID:20260517T093000-67@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260517T093000
 DTEND:20260517T103000
 SUMMARY:Geen bezetting
@@ -459,7 +455,7 @@ DESCRIPTION:Voorganger: Preeklezen br. Aad van den Beukel\n\nBijzonderheden
 END:VEVENT
 BEGIN:VEVENT
 UID:20260524T093000-69@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260524T093000
 DTEND:20260524T103000
 SUMMARY:Geen bezetting
@@ -469,7 +465,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nPinksteren\n\nColle
 END:VEVENT
 BEGIN:VEVENT
 UID:20260524T093000-70@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260524T093000
 DTEND:20260524T103000
 SUMMARY:Geen bezetting
@@ -480,7 +476,7 @@ DESCRIPTION:Voorganger: Preeklezen br. Tjerk Medemblik\n\nBijzonderheden:\n
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T093000-72@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260531T093000
 DTEND:20260531T103000
 SUMMARY:Geen bezetting
@@ -491,7 +487,7 @@ DESCRIPTION:Voorganger: Preeklezen br. Rien Smith\n\nBijzonderheden:\nKoffi
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T093000-73@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260531T093000
 DTEND:20260531T103000
 SUMMARY:Geen bezetting
@@ -502,7 +498,7 @@ DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260607T093000-75@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260607T093000
 DTEND:20260607T103000
 SUMMARY:Rien
@@ -512,7 +508,7 @@ DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260607T093000-76@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260607T093000
 DTEND:20260607T103000
 SUMMARY:Rien
@@ -522,7 +518,7 @@ DESCRIPTION:Voorganger: Geen Dienst\n\nBijzonderheden:\nOpenluchtdienst\n\n
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614T093000-78@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260614T093000
 DTEND:20260614T103000
 SUMMARY:Geen bezetting
@@ -533,7 +529,7 @@ DESCRIPTION:Voorganger: Ds. C. van den Berg (Amersfoort)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614T093000-79@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260614T093000
 DTEND:20260614T103000
 SUMMARY:Geen bezetting
@@ -543,7 +539,7 @@ DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621T103000-81@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260621T103000
 DTEND:20260621T113000
 SUMMARY:Geen bezetting
@@ -554,7 +550,7 @@ DESCRIPTION:Voorganger: Dico Baars\n\nBijzonderheden:\nJeugddienst + koffie
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621T163000-82@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260621T163000
 DTEND:20260621T173000
 SUMMARY:Geen bezetting
@@ -565,7 +561,7 @@ DESCRIPTION:Voorganger: Preeklezen br. John Meeuwsen\n\nBijzonderheden:\nNi
 END:VEVENT
 BEGIN:VEVENT
 UID:20260628T093000-84@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260628T093000
 DTEND:20260628T103000
 SUMMARY:Geen bezetting
@@ -576,7 +572,7 @@ DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nK
 END:VEVENT
 BEGIN:VEVENT
 UID:20260628T093000-85@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260628T093000
 DTEND:20260628T103000
 SUMMARY:Geen bezetting
@@ -587,7 +583,7 @@ DESCRIPTION:Voorganger: Ds. A. Wilschut (Berkel en Rodenrijs)\n\nBijzonderh
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705T093000-87@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260705T093000
 DTEND:20260705T103000
 SUMMARY:Rien
@@ -597,7 +593,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nHeilig Avondmaal -
 END:VEVENT
 BEGIN:VEVENT
 UID:20260705T093000-88@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260705T093000
 DTEND:20260705T103000
 SUMMARY:Rien
@@ -608,7 +604,7 @@ DESCRIPTION:Voorganger: Ds. C. van Zwol (Spakenburg)\n\nBijzonderheden:\nHe
 END:VEVENT
 BEGIN:VEVENT
 UID:20260712T093000-90@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260712T093000
 DTEND:20260712T103000
 SUMMARY:Geen bezetting
@@ -619,7 +615,7 @@ DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20260712T093000-91@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260712T093000
 DTEND:20260712T103000
 SUMMARY:Geen bezetting
@@ -629,7 +625,7 @@ DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260719T093000-94@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260719T093000
 DTEND:20260719T103000
 SUMMARY:Geen bezetting
@@ -640,7 +636,7 @@ DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
 END:VEVENT
 BEGIN:VEVENT
 UID:20260726T093000-96@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260726T093000
 DTEND:20260726T103000
 SUMMARY:Geen bezetting
@@ -651,7 +647,7 @@ DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20260726T093000-97@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260726T093000
 DTEND:20260726T103000
 SUMMARY:Geen bezetting
@@ -661,7 +657,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20260802T093000-99@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260802T093000
 DTEND:20260802T103000
 SUMMARY:Geen bezetting
@@ -672,7 +668,7 @@ DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nGezam
 END:VEVENT
 BEGIN:VEVENT
 UID:20260802T093000-100@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260802T093000
 DTEND:20260802T103000
 SUMMARY:Geen bezetting
@@ -682,7 +678,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20260809T093000-102@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260809T093000
 DTEND:20260809T103000
 SUMMARY:Geen bezetting
@@ -693,7 +689,7 @@ DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nGezam
 END:VEVENT
 BEGIN:VEVENT
 UID:20260809T093000-103@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260809T093000
 DTEND:20260809T103000
 SUMMARY:Geen bezetting
@@ -703,7 +699,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20260816T093000-106@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260816T093000
 DTEND:20260816T103000
 SUMMARY:Geen bezetting
@@ -714,7 +710,7 @@ DESCRIPTION:Voorganger: Ds. K. de Graaf (Kampen)\n\nBijzonderheden:\nNiet b
 END:VEVENT
 BEGIN:VEVENT
 UID:20260823T093000-109@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260823T093000
 DTEND:20260823T103000
 SUMMARY:Geen bezetting
@@ -725,7 +721,7 @@ DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830T093000-111@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260830T093000
 DTEND:20260830T103000
 SUMMARY:Geen bezetting
@@ -735,7 +731,7 @@ DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830T093000-112@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260830T093000
 DTEND:20260830T103000
 SUMMARY:Geen bezetting
@@ -745,7 +741,7 @@ DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260906T093000-114@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260906T093000
 DTEND:20260906T103000
 SUMMARY:Geen bezetting
@@ -756,7 +752,7 @@ DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten/Spakeburg)\n\nBijzonderhe
 END:VEVENT
 BEGIN:VEVENT
 UID:20260906T093000-115@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260906T093000
 DTEND:20260906T103000
 SUMMARY:Geen bezetting
@@ -766,7 +762,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20260913T093000-117@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260913T093000
 DTEND:20260913T103000
 SUMMARY:Geen bezetting
@@ -777,7 +773,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nStartzondag? Koffie
 END:VEVENT
 BEGIN:VEVENT
 UID:20260913T093000-118@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260913T093000
 DTEND:20260913T103000
 SUMMARY:Geen bezetting
@@ -788,7 +784,7 @@ DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
 END:VEVENT
 BEGIN:VEVENT
 UID:20260920T093000-120@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260920T093000
 DTEND:20260920T103000
 SUMMARY:Geen bezetting
@@ -799,7 +795,7 @@ DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20260920T093000-122@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260920T093000
 DTEND:20260920T103000
 SUMMARY:Geen bezetting
@@ -809,7 +805,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927T093000-124@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260927T093000
 DTEND:20260927T103000
 SUMMARY:Geen bezetting
@@ -820,7 +816,7 @@ DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927T093000-125@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20260927T093000
 DTEND:20260927T103000
 SUMMARY:Geen bezetting
@@ -831,7 +827,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nHeilig avondmaal -
 END:VEVENT
 BEGIN:VEVENT
 UID:20261004T093000-127@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261004T093000
 DTEND:20261004T103000
 SUMMARY:Geen bezetting
@@ -841,7 +837,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261004T093000-128@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261004T093000
 DTEND:20261004T103000
 SUMMARY:Geen bezetting
@@ -851,7 +847,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261011T093000-130@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261011T093000
 DTEND:20261011T103000
 SUMMARY:Geen bezetting
@@ -862,7 +858,7 @@ DESCRIPTION:Voorganger: Ds. G.P. Hommes (Leusden)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20261011T093000-131@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261011T093000
 DTEND:20261011T103000
 SUMMARY:Geen bezetting
@@ -873,7 +869,7 @@ DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018T093000-133@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261018T093000
 DTEND:20261018T103000
 SUMMARY:Geen bezetting
@@ -883,7 +879,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018T093000-134@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261018T093000
 DTEND:20261018T103000
 SUMMARY:Geen bezetting
@@ -893,7 +889,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025T093000-136@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261025T093000
 DTEND:20261025T103000
 SUMMARY:Geen bezetting
@@ -903,7 +899,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025T093000-137@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261025T093000
 DTEND:20261025T103000
 SUMMARY:Geen bezetting
@@ -913,7 +909,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T093000-139@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261101T093000
 DTEND:20261101T103000
 SUMMARY:Geen bezetting
@@ -923,7 +919,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261101T093000-140@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261101T093000
 DTEND:20261101T103000
 SUMMARY:Geen bezetting
@@ -933,7 +929,7 @@ DESCRIPTION:Voorganger: Ds. M. Tel (Zaltbommel)\n\nBijzonderheden:\nNiet be
 END:VEVENT
 BEGIN:VEVENT
 UID:20261108T093000-144@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261108T093000
 DTEND:20261108T103000
 SUMMARY:Geen bezetting
@@ -943,7 +939,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261108T093000-145@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261108T093000
 DTEND:20261108T103000
 SUMMARY:Geen bezetting
@@ -953,7 +949,7 @@ DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115T093000-147@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261115T093000
 DTEND:20261115T103000
 SUMMARY:Geen bezetting
@@ -964,7 +960,7 @@ DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nDove
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115T093000-148@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261115T093000
 DTEND:20261115T103000
 SUMMARY:Geen bezetting
@@ -975,7 +971,7 @@ DESCRIPTION:Voorganger: Ds. B. Buitendijk (Bunschoten-Oost)\n\nBijzonderhed
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122T093000-150@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261122T093000
 DTEND:20261122T103000
 SUMMARY:Geen bezetting
@@ -986,7 +982,7 @@ DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122T093000-151@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261122T093000
 DTEND:20261122T103000
 SUMMARY:Geen bezetting
@@ -997,7 +993,7 @@ DESCRIPTION:Voorganger: Ds. M.K. Drost (Bunschoten-West)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129T093000-153@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261129T093000
 DTEND:20261129T103000
 SUMMARY:Geen bezetting
@@ -1007,7 +1003,7 @@ DESCRIPTION:Voorganger: Ds. G.P. Hommes (Leusden)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129T093000-154@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261129T093000
 DTEND:20261129T103000
 SUMMARY:Geen bezetting
@@ -1017,7 +1013,7 @@ DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20261206T093000-156@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261206T093000
 DTEND:20261206T103000
 SUMMARY:Geen bezetting
@@ -1028,7 +1024,7 @@ DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
 END:VEVENT
 BEGIN:VEVENT
 UID:20261206T093000-157@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261206T093000
 DTEND:20261206T103000
 SUMMARY:Geen bezetting
@@ -1039,7 +1035,7 @@ DESCRIPTION:Voorganger: Ds. A. Wilschut (Berkel en Rodenrijs)\n\nBijzonderh
 END:VEVENT
 BEGIN:VEVENT
 UID:20261213T093000-159@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261213T093000
 DTEND:20261213T103000
 SUMMARY:Geen bezetting
@@ -1050,7 +1046,7 @@ DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nNiet
 END:VEVENT
 BEGIN:VEVENT
 UID:20261213T093000-160@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261213T093000
 DTEND:20261213T103000
 SUMMARY:Geen bezetting
@@ -1061,7 +1057,7 @@ DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten/Spakenburg)\n\nBijzonderh
 END:VEVENT
 BEGIN:VEVENT
 UID:20261220T093000-162@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261220T093000
 DTEND:20261220T103000
 SUMMARY:Geen bezetting
@@ -1071,7 +1067,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261220T093000-163@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261220T093000
 DTEND:20261220T103000
 SUMMARY:Geen bezetting
@@ -1081,7 +1077,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20251225T093000-165@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20251225T093000
 DTEND:20251225T103000
 SUMMARY:Geen bezetting
@@ -1091,7 +1087,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nKerst\n\nCollectes:
 END:VEVENT
 BEGIN:VEVENT
 UID:20261227T093000-167@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261227T093000
 DTEND:20261227T103000
 SUMMARY:Geen bezetting
@@ -1101,7 +1097,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20261227T093000-168@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20261227T093000
 DTEND:20261227T103000
 SUMMARY:Geen bezetting
@@ -1111,7 +1107,7 @@ DESCRIPTION:Voorganger: Niet bekend\n\nBijzonderheden:\nNiet bekend\n\nColl
 END:VEVENT
 BEGIN:VEVENT
 UID:20281231T093000-170@kerk.nl
-DTSTAMP:20260331T130308Z
+DTSTAMP:20260331T131111Z
 DTSTART:20281231T093000
 DTEND:20281231T103000
 SUMMARY:Geen bezetting
