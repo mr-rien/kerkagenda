@@ -1,33 +1,93 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Kerkdiensten//NL
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:20260104T093000-0@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260104T093000
+DTEND;TZID=Europe/Amsterdam:20260104T103000
+SUMMARY:Ochtenddienst - Ds. J. Meijer
+DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten / Spakenburg)\n\nBijzonde
+ rheden:\nKoffiedrinken na de dienst (Kring 8)\n\nCollectes:\n- 1e: Kerk\n-
+  2e: VSE\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Pieter Willem
+ \n- Begeleiding: Mattias
+END:VEVENT
+BEGIN:VEVENT
+UID:20260104T163000-1@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260104T163000
+DTEND;TZID=Europe/Amsterdam:20260104T173000
+SUMMARY:Middagdienst - Ds. G. Zomer
+DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Rie
+ n\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: 2026-01-01 00:00:00
+END:VEVENT
+BEGIN:VEVENT
+UID:20260111T093000-3@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260111T093000
+DTEND;TZID=Europe/Amsterdam:20260111T103000
+SUMMARY:Ochtenddienst - Ds. A. Rienks
+DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nKring
+ week januari\n\nCollectes:\n- 1e: Kerk\n- 2e: Nederlands Bijbelgenootschap
+ \n\nOverig:\n- Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding: 
+ Mattias
+END:VEVENT
+BEGIN:VEVENT
+UID:20260111T163000-4@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260111T163000
+DTEND;TZID=Europe/Amsterdam:20260111T173000
+SUMMARY:Middagdienst - M.J. Hag
+DESCRIPTION:Voorganger: M.J. Hag (Utrecht - Leische Rijn)\n\nBijzonderheden
+ :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Nederlands Bijbelgenootsch
+ ap\n\nOverig:\n- Livestream: Joël\n- Geluidstechnicus: Daan\n- Begeleiding
+ : 2026-01-01 00:00:00
+END:VEVENT
 BEGIN:VEVENT
 UID:20260118T093000-6@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260118T083000Z
-DTEND:20260118T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260118T093000
+DTEND;TZID=Europe/Amsterdam:20260118T103000
 SUMMARY:Ochtenddienst - Ds. C. van den berg
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\
- n- Livestream: Ruben Heijloo\n- Geluidstechnicus: Rien Smith\n- Begeleidin
- g: Justin vd Heuvel
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n- L
+ ivestream: Ruben Heijloo\n- Geluidstechnicus: Rien Smith\n- Begeleiding: J
+ ustin vd Heuvel
 END:VEVENT
 BEGIN:VEVENT
 UID:20260118T163000-8@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260118T153000Z
-DTEND:20260118T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260118T163000
+DTEND;TZID=Europe/Amsterdam:20260118T173000
 SUMMARY:Middagdienst - Preeklezen br. Ard van Oosterum
 DESCRIPTION:Voorganger: Preeklezen br. Ard van Oosterum\n\nBijzonderheden:\
- nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n
- - Livestream: Ruben Heijloo\n- Geluidstechnicus: Rien Smith\n- Begeleiding
- : Justin vd Heuvel
+ nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n- Li
+ vestream: Ruben Heijloo\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Ju
+ stin vd Heuvel
 END:VEVENT
 BEGIN:VEVENT
 UID:20260125T093000-10@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260125T083000Z
-DTEND:20260125T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260125T093000
+DTEND;TZID=Europe/Amsterdam:20260125T103000
 SUMMARY:Ochtenddienst - Ds. W. van Veelen
 DESCRIPTION:Voorganger: Ds. W. van Veelen\n\nBijzonderheden:\nKoffiedrinken
   na de dienst (Kring 1)\n\nCollectes:\n- 1e: Kerk\n- 2e: De Verre Naasten\
@@ -36,64 +96,63 @@ DESCRIPTION:Voorganger: Ds. W. van Veelen\n\nBijzonderheden:\nKoffiedrinken
 END:VEVENT
 BEGIN:VEVENT
 UID:20260125T163000-11@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260125T153000Z
-DTEND:20260125T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260125T163000
+DTEND;TZID=Europe/Amsterdam:20260125T173000
 SUMMARY:Middagdienst - B.C. Buitendijk
 DESCRIPTION:Voorganger: B.C. Buitendijk (Bunschoten-Oost)\n\nBijzonderheden
- :\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: De Verre Naasten\n\nOv
- erig:\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: EvertJan\n- Begele
- iding: Justin vd Heuvel
+ :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: De Verre Naasten\n\nOverig
+ :\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: EvertJan\n- Begeleidin
+ g: Justin vd Heuvel
 END:VEVENT
 BEGIN:VEVENT
-UID:20260102T093000-13@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260102T083000Z
-DTEND:20260102T093000Z
+UID:20260201T093000-13@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260201T093000
+DTEND;TZID=Europe/Amsterdam:20260201T103000
 SUMMARY:Ochtenddienst - Ds. P. Hommes
 DESCRIPTION:Voorganger: Ds. P. Hommes (Leusden)\n\nBijzonderheden:\nKringwe
- ek februari + Heilig Avond - Zittend\n\nCollectes:\n- 1e: Nog niet bekend\
- n- 2e: Diaconie\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Nog ni
- et bekend\n- Begeleiding: Nog niet bekend
+ ek februari + Heilig Avond - Zittend\n\nCollectes:\n- 2e: Diaconie\n\nOver
+ ig:\n- Livestream: Rien\n- Geluidstechnicus: Niet bekend\n- Begeleiding: N
+ iet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260102T160000-14@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260102T150000Z
-DTEND:20260102T160000Z
+UID:20260201T160000-14@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260201T160000
+DTEND;TZID=Europe/Amsterdam:20260201T170000
 SUMMARY:Avondmaalsdienst - Ds. J.M. Haak
 DESCRIPTION:Voorganger: Ds. J.M. Haak (Dordrecht)\n\nBijzonderheden:\nHeili
- g Avondmaal - Zittend\n\nCollectes:\n- 1e: Nog niet bekend\n- 2e: Diaconie
- \n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Nog niet bekend\n- Be
- geleiding: Nog niet bekend
+ g Avondmaal - Zittend\n\nCollectes:\n- 2e: Diaconie\n\nOverig:\n- Livestre
+ am: Rien\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260802T093000-16@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260802T083000Z
-DTEND:20260802T093000Z
+UID:20260208T093000-16@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260208T093000
+DTEND;TZID=Europe/Amsterdam:20260208T103000
 SUMMARY:Ochtenddienst - Ds. P.C. Colijn
 DESCRIPTION:Voorganger: Ds. P.C. Colijn (Hardinxveld - Giessendam)\n\nBijzo
- nderheden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n
- \nOverig:\n- Livestream: Joël\n- Geluidstechnicus: Nog niet bekend\n- Bege
- leiding: Nog niet bekend
+ nderheden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOv
+ erig:\n- Livestream: Joël\n- Geluidstechnicus: Niet bekend\n- Begeleiding:
+  Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260802T163000-17@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260802T153000Z
-DTEND:20260802T163000Z
+UID:20260208T163000-17@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260208T163000
+DTEND;TZID=Europe/Amsterdam:20260208T173000
 SUMMARY:Middagdienst - Preeklezen br. Wim van der Mijden
 DESCRIPTION:Voorganger: Preeklezen br. Wim van der Mijden\n\nBijzonderheden
- :\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:
- \n- Livestream: Joël\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: 
- Nog niet bekend
+ :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- 
+ Livestream: Joël\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bek
+ end
 END:VEVENT
 BEGIN:VEVENT
 UID:20260215T103000-19@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260215T093000Z
-DTEND:20260215T103000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260215T103000
+DTEND;TZID=Europe/Amsterdam:20260215T113000
 SUMMARY:Ochtenddienst - Daniël van der Ham
 DESCRIPTION:Voorganger: Daniël van der Ham\n\nBijzonderheden:\nJeugddienst 
  + koffiedrinken voor en na de dienst (kring 2)\n\nCollectes:\n- 1e: Kerk\n
@@ -102,991 +161,977 @@ DESCRIPTION:Voorganger: Daniël van der Ham\n\nBijzonderheden:\nJeugddienst
 END:VEVENT
 BEGIN:VEVENT
 UID:20260215T163000-20@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260215T153000Z
-DTEND:20260215T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260215T163000
+DTEND;TZID=Europe/Amsterdam:20260215T173000
 SUMMARY:Middagdienst - Ds. C. van Breemen
-DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Youth Alpha\n\nOverig:\n- Liv
- estream: Ruben Boogerd\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: 
- 2026-01-01 00:00:00
+DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Youth Alpha\n\nOverig:\n- Livestr
+ eam: Ruben Boogerd\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: 2026
+ -01-01 00:00:00
 END:VEVENT
 BEGIN:VEVENT
 UID:20260222T093000-22@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260222T083000Z
-DTEND:20260222T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260222T093000
+DTEND;TZID=Europe/Amsterdam:20260222T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Tjerk Medemblik
 DESCRIPTION:Voorganger: Preeklezen br. Tjerk Medemblik\n\nBijzonderheden:\n
- Nog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dit Koningskind\n\nOverig
- :\n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Nog 
- niet bekend
+ Niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dit Koningskind\n\nOverig:\n-
+  Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet bek
+ end
 END:VEVENT
 BEGIN:VEVENT
 UID:20260222T163000-23@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260222T153000Z
-DTEND:20260222T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260222T163000
+DTEND;TZID=Europe/Amsterdam:20260222T173000
 SUMMARY:Middagdienst - B.C. Buitendijk
 DESCRIPTION:Voorganger: B.C. Buitendijk (Bunschoten-Oost)\n\nBijzonderheden
- :\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dit Koningskind\n\nOve
- rig:\n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: N
- og niet bekend
+ :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dit Koningskind\n\nOverig:
+ \n- Livestream: Joël\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet 
+ bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260103T093000-25@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260103T083000Z
-DTEND:20260103T093000Z
+UID:20260301T093000-25@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260301T093000
+DTEND;TZID=Europe/Amsterdam:20260301T103000
 SUMMARY:Ochtenddienst - Ds. A. Rienks
-DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nNog n
- iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltijd\n\nOv
- erig:\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- Begele
- iding: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nNiet 
+ bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltijd\n\nOverig
+ :\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- Begeleidin
+ g: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260103T163000-26@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260103T153000Z
-DTEND:20260103T163000Z
+UID:20260301T163000-26@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260301T163000
+DTEND;TZID=Europe/Amsterdam:20260301T173000
 SUMMARY:Middagdienst - Ds. P.J. Trimp
 DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltij
- d\n\nOverig:\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n-
-  Begeleiding: Nog niet bekend
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltijd\n\
+ nOverig:\n- Livestream: Ruben Heijloo\n- Geluidstechnicus: EvertJan\n- Beg
+ eleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260803T093000-28@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260803T083000Z
-DTEND:20260803T093000Z
+UID:20260308T093000-28@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260308T093000
+DTEND;TZID=Europe/Amsterdam:20260308T103000
 SUMMARY:Ochtenddienst - Ds. R.J.A. (Robert) Doornenbal
 DESCRIPTION:Voorganger: Ds. R.J.A. (Robert) Doornenbal (Houten)\n\nBijzonde
- rheden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: European Christi
- an Mission\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Beg
- eleiding: Nog niet bekend
+ rheden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: European Christian M
+ ission\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Begelei
+ ding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260803T163000-29@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260803T153000Z
-DTEND:20260803T163000Z
+UID:20260308T163000-29@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260308T163000
+DTEND;TZID=Europe/Amsterdam:20260308T173000
 SUMMARY:Middagdienst - Drs. K. de Graaf
-DESCRIPTION:Voorganger: Drs. K. de Graaf (Kampen)\n\nBijzonderheden:\nNog n
- iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: European Christian Mission\n\n
- Overig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Begeleiding: Nog 
- niet bekend
+DESCRIPTION:Voorganger: Drs. K. de Graaf (Kampen)\n\nBijzonderheden:\nNiet 
+ bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: European Christian Mission\n\nOver
+ ig:\n- Livestream: Rien\n- Geluidstechnicus: Daan\n- Begeleiding: Niet bek
+ end
 END:VEVENT
 BEGIN:VEVENT
-UID:20261103T193000-31@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261103T183000Z
-DTEND:20261103T193000Z
+UID:20260311T193000-31@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260311T193000
+DTEND;TZID=Europe/Amsterdam:20260311T203000
 SUMMARY:Gezamenlijke dienst - Preeklezen br. Wim van der Mijden
 DESCRIPTION:Voorganger: Preeklezen br. Wim van der Mijden\n\nBijzonderheden
  :\nBiddag/gezamenlijke dienst NGK's in de Hoeksteen\n\nCollectes:\n- 1e: K
  erk\n- 2e: Dorcas\n\nOverig:\n- Livestream: Joël\n- Geluidstechnicus: Pete
- r\n- Begeleiding: Nog niet bekend
+ r\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260315T093000-33@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260315T083000Z
-DTEND:20260315T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260315T093000
+DTEND;TZID=Europe/Amsterdam:20260315T103000
 SUMMARY:Ochtenddienst - Ds. C. van den berg
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig
- :\n- Livestream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleid
- ing: Nog niet bekend
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n-
+  Livestream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleiding:
+  Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260315T163000-35@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260315T153000Z
-DTEND:20260315T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260315T163000
+DTEND;TZID=Europe/Amsterdam:20260315T173000
 SUMMARY:Middagdienst - Ds. G. Zomer
-DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- L
- ivestream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleiding: N
- og niet bekend
+DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Lives
+ tream: Ruben Boogerd\n- Geluidstechnicus: Rien Smith\n- Begeleiding: Niet 
+ bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260322T093000-37@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260322T083000Z
-DTEND:20260322T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260322T093000
+DTEND;TZID=Europe/Amsterdam:20260322T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Hille de Graaf
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestre
- am: Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: Nog n
- iet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: 
+ Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: Niet beke
+ nd
 END:VEVENT
 BEGIN:VEVENT
 UID:20260322T163000-38@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260322T153000Z
-DTEND:20260322T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260322T163000
+DTEND;TZID=Europe/Amsterdam:20260322T173000
 SUMMARY:Middagdienst - Ds. A. Wilschut
 DESCRIPTION:Voorganger: Ds. A. Wilschut (Berkel en Rodenrijs)\n\nBijzonderh
- eden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- 
- Livestream: Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleidin
- g: Nog niet bekend
+ eden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Live
+ stream: Ruben Heijloo\n- Geluidstechnicus: Pieter Willem\n- Begeleiding: N
+ iet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260329T093000-40@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260329T083000Z
-DTEND:20260329T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260329T093000
+DTEND;TZID=Europe/Amsterdam:20260329T103000
 SUMMARY:Ochtenddienst - Ds. M.J. Hagg
 DESCRIPTION:Voorganger: Ds. M.J. Hagg (Utrecht - Leische Rijn)\n\nBijzonder
  heden:\nKoffiedrinken na de dienst (Kring 3)\n\nCollectes:\n- 1e: Kerk\n- 
  2e: Woord en Daad\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Ever
- tJan\n- Begeleiding: Nog niet bekend
+ tJan\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260329T163000-41@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260329T153000Z
-DTEND:20260329T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260329T163000
+DTEND;TZID=Europe/Amsterdam:20260329T173000
 SUMMARY:Middagdienst - Ds. C. van Zwol
-DESCRIPTION:Voorganger: Ds. C. van Zwol (Spakenburg)\n\nBijzonderheden:\nNo
- g niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Woord en Daad\n\nOverig:\n-
-  Livestream: Rien\n- Geluidstechnicus: EvertJan\n- Begeleiding: Nog niet b
- ekend
+DESCRIPTION:Voorganger: Ds. C. van Zwol (Spakenburg)\n\nBijzonderheden:\nNi
+ et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Woord en Daad\n\nOverig:\n- Liv
+ estream: Rien\n- Geluidstechnicus: EvertJan\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260504T093000-45@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260504T083000Z
-DTEND:20260504T093000Z
+UID:20260405T093000-45@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260405T093000
+DTEND;TZID=Europe/Amsterdam:20260405T103000
 SUMMARY:Ochtenddienst - Ds. Anne Rienks
 DESCRIPTION:Voorganger: Ds. Anne Rienks\n\nBijzonderheden:\n1e paasdag\n\nC
  ollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Joël\n-
-  Geluidstechnicus: Peter\n- Begeleiding: Nog niet bekend
+  Geluidstechnicus: Peter\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260504T163000-46@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260504T153000Z
-DTEND:20260504T163000Z
+UID:20260405T163000-46@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260405T163000
+DTEND;TZID=Europe/Amsterdam:20260405T173000
 SUMMARY:Middagdienst - Ds. G. Oosterhuis
-DESCRIPTION:Voorganger: Ds. G. Oosterhuis (Langerak)\n\nBijzonderheden:\nNo
- g niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- L
- ivestream: Joël\n- Geluidstechnicus: Peter\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. G. Oosterhuis (Langerak)\n\nBijzonderheden:\nNi
+ et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Lives
+ tream: Joël\n- Geluidstechnicus: Peter\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261204T093000-48@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261204T083000Z
-DTEND:20261204T093000Z
+UID:20260412T093000-48@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260412T093000
+DTEND;TZID=Europe/Amsterdam:20260412T103000
 SUMMARY:Ochtenddienst - Ds. W. Schaaij
 DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nKring
  week april\, Verkiezing ambtsdragers\n\nCollectes:\n- 1e: Kerk\n- 2e: Open
-  Doors\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog 
- niet bekend\n- Begeleiding: Nog niet bekend
+  Doors\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bek
+ end\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261204T163000-49@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261204T153000Z
-DTEND:20261204T163000Z
+UID:20260412T163000-49@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260412T163000
+DTEND;TZID=Europe/Amsterdam:20260412T173000
 SUMMARY:Middagdienst - Ds. J. Meijer
 DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten/Spakenburg)\n\nBijzonderh
  eden:\nBelijdenisdienst Denise en Wilbert\n\nCollectes:\n- 1e: Kerk\n- 2e:
-  Open Doors\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus:
-  Nog niet bekend\n- Begeleiding: Nog niet bekend
+  Open Doors\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Nie
+ t bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260419T103000-51@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260419T093000Z
-DTEND:20260419T103000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260419T103000
+DTEND;TZID=Europe/Amsterdam:20260419T113000
 SUMMARY:Ochtenddienst - Br. A. Oussoren
 DESCRIPTION:Voorganger: Br. A. Oussoren\n\nBijzonderheden:\nJeugddienst + k
  offiedrinken voor en na de dienst (kring 4)\n\nCollectes:\n- 1e: Kerk\n- 2
- e: VSE\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Nog niet bekend
- \n- Begeleiding: Nog niet bekend
+ e: VSE\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Niet bekend\n- 
+ Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260419T163000-52@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260419T153000Z
-DTEND:20260419T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260419T163000
+DTEND;TZID=Europe/Amsterdam:20260419T173000
 SUMMARY:Middagdienst - Ds. M. Tel
-DESCRIPTION:Voorganger: Ds. M. Tel (Zaltbommel)\n\nBijzonderheden:\nNog nie
- t bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Ri
- en\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. M. Tel (Zaltbommel)\n\nBijzonderheden:\nNiet be
+ kend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Rien\n
+ - Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260426T093000-54@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260426T083000Z
-DTEND:20260426T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260426T093000
+DTEND;TZID=Europe/Amsterdam:20260426T103000
 SUMMARY:Avondmaalsdienst - Ds. J. Sytsma
 DESCRIPTION:Voorganger: Ds. J. Sytsma (Nieuwegein)\n\nBijzonderheden:\nHeil
- ig Avondmaal - Lopend\n\nCollectes:\n- 1e: Nog niet bekend\n- 2e: Diaconie
- \n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet b
- ekend\n- Begeleiding: Nog niet bekend
+ ig Avondmaal - Lopend\n\nCollectes:\n- 2e: Diaconie\n\nOverig:\n- Livestre
+ am: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet beke
+ nd
 END:VEVENT
 BEGIN:VEVENT
 UID:20260426T163000-55@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260426T153000Z
-DTEND:20260426T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260426T163000
+DTEND;TZID=Europe/Amsterdam:20260426T173000
 SUMMARY:Avondmaalsdienst - Preeklezen br. Hille de Graaf
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nH
- eilig Avondmaal - Lopend\n\nCollectes:\n- 1e: Nog niet bekend\n- 2e: Diaco
- nie\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog nie
- t bekend\n- Begeleiding: Nog niet bekend
+ eilig Avondmaal - Lopend\n\nCollectes:\n- 2e: Diaconie\n\nOverig:\n- Lives
+ tream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet b
+ ekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260305T093000-57@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260305T083000Z
-DTEND:20260305T093000Z
+UID:20260503T093000-57@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260503T093000
+DTEND;TZID=Europe/Amsterdam:20260503T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Tjerk Medemblik
 DESCRIPTION:Voorganger: Preeklezen br. Tjerk Medemblik\n\nBijzonderheden:\n
  Kringweek mei\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\nOve
- rig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n
- - Begeleiding: Nog niet bekend
+ rig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begele
+ iding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260305T163000-58@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260305T153000Z
-DTEND:20260305T163000Z
+UID:20260503T163000-58@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260503T163000
+DTEND;TZID=Europe/Amsterdam:20260503T173000
 SUMMARY:Middagdienst - Preeklezen br. John Meeuwsen
-DESCRIPTION:Voorganger: Preeklezen br. John Meeuwsen\n\nBijzonderheden:\nNo
- g niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\nOve
- rig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n
- - Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: Preeklezen br. John Meeuwsen\n\nBijzonderheden:\nNi
+ et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\nOverig:
+ \n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleidin
+ g: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261005T093000-60@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261005T083000Z
-DTEND:20261005T093000Z
+UID:20260510T093000-60@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260510T093000
+DTEND;TZID=Europe/Amsterdam:20260510T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Hille de Graaf
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n
- - Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Bege
- leiding: Nog niet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Li
+ vestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Nie
+ t bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261005T163000-62@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261005T153000Z
-DTEND:20261005T163000Z
+UID:20260510T163000-62@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260510T163000
+DTEND;TZID=Europe/Amsterdam:20260510T173000
 SUMMARY:Middagdienst - Ds. P.C. Colijn
 DESCRIPTION:Voorganger: Ds. P.C. Colijn (Hardinxveld - Giessendam)\n\nBijzo
- nderheden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission
- \n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet b
- ekend\n- Begeleiding: Nog niet bekend
+ nderheden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\n
+ Overig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Beg
+ eleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260514T093000-64@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260514T083000Z
-DTEND:20260514T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260514T093000
+DTEND;TZID=Europe/Amsterdam:20260514T103000
 SUMMARY:Gezamenlijke dienst - Preeklezen br. Wim van der Mijden
 DESCRIPTION:Voorganger: Preeklezen br. Wim van der Mijden\n\nBijzonderheden
  :\nHemelvaartsdag/Gezamenlijke dienst NGK's in de Hoeksteen\n\nCollectes:\
  n- 1e: Kerk\n- 2e: De Hoop\n\nOverig:\n- Livestream: Rien\n- Geluidstechni
- cus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ cus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260517T093000-66@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260517T083000Z
-DTEND:20260517T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260517T093000
+DTEND;TZID=Europe/Amsterdam:20260517T103000
 SUMMARY:Ochtenddienst - G.P. Hommes
 DESCRIPTION:Voorganger: G.P. Hommes (Leusden)\n\nBijzonderheden:\nBelijdeni
- sdienst\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog
-  niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet
-  bekend
+ sdienst\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nie
+ t bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260517T093000-67@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260517T083000Z
-DTEND:20260517T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260517T093000
+DTEND;TZID=Europe/Amsterdam:20260517T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Aad van den Beukel
 DESCRIPTION:Voorganger: Preeklezen br. Aad van den Beukel\n\nBijzonderheden
- :\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Live
- stream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleidin
- g: Nog niet bekend
+ :\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestre
+ am: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet beke
+ nd
 END:VEVENT
 BEGIN:VEVENT
 UID:20260524T093000-69@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260524T083000Z
-DTEND:20260524T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260524T093000
+DTEND;TZID=Europe/Amsterdam:20260524T103000
 SUMMARY:Ochtenddienst
 DESCRIPTION:Voorganger: \n\nBijzonderheden:\nPinksteren\n\nCollectes:\n- 1e
- : Kerk\n- 2e: Jeugd met een Opdracht\n\nOverig:\n- Livestream: Nog niet be
- kend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ : Kerk\n- 2e: Jeugd met een Opdracht\n\nOverig:\n- Livestream: Niet bekend
+ \n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260524T093000-70@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260524T083000Z
-DTEND:20260524T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260524T093000
+DTEND;TZID=Europe/Amsterdam:20260524T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Tjerk Medemblik
 DESCRIPTION:Voorganger: Preeklezen br. Tjerk Medemblik\n\nBijzonderheden:\n
- Nog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Jeugd met een Opdracht\n\
- nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet beke
- nd\n- Begeleiding: Nog niet bekend
+ Niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Jeugd met een Opdracht\n\nOve
+ rig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begele
+ iding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T093000-72@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260531T083000Z
-DTEND:20260531T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260531T093000
+DTEND;TZID=Europe/Amsterdam:20260531T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Rien Smith
 DESCRIPTION:Voorganger: Preeklezen br. Rien Smith\n\nBijzonderheden:\nKoffi
  edrinken na de dienst (kring 5)\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverba
- nd\n- 3e: Open Maaltijd\n\nOverig:\n- Livestream: Nog niet bekend\n- Gelui
- dstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ nd\n- 3e: Open Maaltijd\n\nOverig:\n- Livestream: Niet bekend\n- Geluidste
+ chnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260531T093000-73@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260531T083000Z
-DTEND:20260531T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260531T093000
+DTEND;TZID=Europe/Amsterdam:20260531T103000
 SUMMARY:Ochtenddienst - Ds. C. van Breemen
-DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n- 3e: Open Maalt
- ijd\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog nie
- t bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n- 3e: Open Maaltijd\
+ n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- 
+ Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260706T093000-75@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260706T083000Z
-DTEND:20260706T093000Z
+UID:20260607T093000-75@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260607T093000
+DTEND;TZID=Europe/Amsterdam:20260607T103000
 SUMMARY:Ochtenddienst - Ds. G. Zomer
-DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- L
- ivestream: Rien\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog n
- iet bekend
+DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Lives
+ tream: Rien\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260706T093000-76@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260706T083000Z
-DTEND:20260706T093000Z
+UID:20260607T093000-76@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260607T093000
+DTEND;TZID=Europe/Amsterdam:20260607T103000
 SUMMARY:Ochtenddienst - Geen Dienst
 DESCRIPTION:Voorganger: Geen Dienst\n\nBijzonderheden:\nOpenluchtdienst\n\n
  Collectes:\n- 1e: Kerk\n- 2e: Open Luchtdienst\n\nOverig:\n- Livestream: R
- ien\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ ien\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614T093000-78@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260614T083000Z
-DTEND:20260614T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260614T093000
+DTEND;TZID=Europe/Amsterdam:20260614T103000
 SUMMARY:Ochtenddienst - Ds. C. van den Berg
 DESCRIPTION:Voorganger: Ds. C. van den Berg (Amersfoort)\n\nBijzonderheden:
  \nBevestiging ambtsdragers + koffiedrinken na de dienst (kring 6)\n\nColle
- ctes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- 
- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ ctes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Gelu
+ idstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260614T093000-79@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260614T083000Z
-DTEND:20260614T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260614T093000
+DTEND;TZID=Europe/Amsterdam:20260614T103000
 SUMMARY:Ochtenddienst - Br. J. de Koning
 DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestre
- am: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: N
- og niet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: 
+ Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621T103000-81@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260621T093000Z
-DTEND:20260621T103000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260621T103000
+DTEND;TZID=Europe/Amsterdam:20260621T113000
 SUMMARY:Ochtenddienst - Dico Baars
 DESCRIPTION:Voorganger: Dico Baars\n\nBijzonderheden:\nJeugddienst + koffie
  drinken voor en na de dienst (kring 7)\n\nCollectes:\n- 1e: Kerk\n- 2e: Do
- venpastoraat\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus
- : Nog niet bekend\n- Begeleiding: Nog niet bekend
+ venpastoraat\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Ni
+ et bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260621T163000-82@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260621T153000Z
-DTEND:20260621T163000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260621T163000
+DTEND;TZID=Europe/Amsterdam:20260621T173000
 SUMMARY:Middagdienst - Preeklezen br. John Meeuwsen
-DESCRIPTION:Voorganger: Preeklezen br. John Meeuwsen\n\nBijzonderheden:\nNo
- g niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dovenpastoraat\n\nOverig:\n
- - Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Bege
- leiding: Nog niet bekend
+DESCRIPTION:Voorganger: Preeklezen br. John Meeuwsen\n\nBijzonderheden:\nNi
+ et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Dovenpastoraat\n\nOverig:\n- Li
+ vestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Nie
+ t bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260628T093000-84@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260628T083000Z
-DTEND:20260628T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260628T093000
+DTEND;TZID=Europe/Amsterdam:20260628T103000
 SUMMARY:Ochtenddienst - Preeklezen br. Hille de Graaf
 DESCRIPTION:Voorganger: Preeklezen br. Hille de Graaf\n\nBijzonderheden:\nK
  ringweek juni\n\nCollectes:\n- 1e: Kerk\n- 2e: Luisterpost Bralectah\n\nOv
- erig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\
- n- Begeleiding: Nog niet bekend
+ erig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begel
+ eiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260628T093000-85@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260628T083000Z
-DTEND:20260628T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260628T093000
+DTEND;TZID=Europe/Amsterdam:20260628T103000
 SUMMARY:Ochtenddienst - Ds. A. Wilschut
 DESCRIPTION:Voorganger: Ds. A. Wilschut (Berkel en Rodenrijs)\n\nBijzonderh
- eden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Luisterpost Bralec
- tah\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog nie
- t bekend\n- Begeleiding: Nog niet bekend
+ eden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Luisterpost Bralectah\
+ n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- 
+ Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260507T093000-87@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260507T083000Z
-DTEND:20260507T093000Z
+UID:20260705T093000-87@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260705T093000
+DTEND;TZID=Europe/Amsterdam:20260705T103000
 SUMMARY:Avondmaalsdienst
 DESCRIPTION:Voorganger: \n\nBijzonderheden:\nHeilig Avondmaal - Zittend\n\n
- Collectes:\n- 1e: Nog niet bekend\n- 2e: Diaconie\n\nOverig:\n- Livestream
- : Rien\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet beken
- d
+ Collectes:\n- 2e: Diaconie\n\nOverig:\n- Livestream: Rien\n- Geluidstechni
+ cus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260507T093000-88@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260507T083000Z
-DTEND:20260507T093000Z
+UID:20260705T093000-88@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260705T093000
+DTEND;TZID=Europe/Amsterdam:20260705T103000
 SUMMARY:Avondmaalsdienst - Ds. C. van Zwol
 DESCRIPTION:Voorganger: Ds. C. van Zwol (Spakenburg)\n\nBijzonderheden:\nHe
- ilig Avondmaal - Zittend\n\nCollectes:\n- 1e: Nog niet bekend\n- 2e: Diaco
- nie\n\nOverig:\n- Livestream: Rien\n- Geluidstechnicus: Nog niet bekend\n-
-  Begeleiding: Nog niet bekend
+ ilig Avondmaal - Zittend\n\nCollectes:\n- 2e: Diaconie\n\nOverig:\n- Lives
+ tream: Rien\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261207T093000-90@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261207T083000Z
-DTEND:20261207T093000Z
+UID:20260712T093000-90@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260712T093000
+DTEND;TZID=Europe/Amsterdam:20260712T103000
 SUMMARY:Ochtenddienst - Ds. C. van den berg
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
  \nKoffiedrinken na de dienst (Kring 8)\n\nCollectes:\n- 1e: Kerk\n- 2e: E&
- R\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet 
- bekend\n- Begeleiding: Nog niet bekend
+ R\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n
+ - Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261207T093000-91@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261207T083000Z
-DTEND:20261207T093000Z
+UID:20260712T093000-91@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260712T093000
+DTEND;TZID=Europe/Amsterdam:20260712T103000
 SUMMARY:Ochtenddienst - Ds. G. Zomer
-DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: E&R\n\nOverig:\n- Livestream:
-  Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog 
- niet bekend
+DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: E&R\n\nOverig:\n- Livestream: Nie
+ t bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260719T093000-94@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260719T083000Z
-DTEND:20260719T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260719T093000
+DTEND;TZID=Europe/Amsterdam:20260719T103000
 SUMMARY:Ochtenddienst - Br. J. de Koning
 DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Gevangenenzorg Nederland\n
- \nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bek
- end\n- Begeleiding: Nog niet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Gevangenenzorg Nederland\n\nOv
+ erig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begel
+ eiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260726T093000-96@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260726T083000Z
-DTEND:20260726T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260726T093000
+DTEND;TZID=Europe/Amsterdam:20260726T103000
 SUMMARY:Gezamenlijke dienst - Ds. P.J. Trimp
 DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
  \nGezamenlijke dienst NGK's in De Hoeksteen\n\nCollectes:\n- 1e: Kerk\n- 2
- e: De Verre Naasten\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidste
- chnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ e: De Verre Naasten\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechni
+ cus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260726T093000-97@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260726T083000Z
-DTEND:20260726T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260726T093000
+DTEND;TZID=Europe/Amsterdam:20260726T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: De Verre Naasten\n\nOverig:\n- Livestream: Nog niet bek
- end\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: De Verre Naasten\n\nOverig:\n- Livestream: Niet bekend\n- G
+ eluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260208T093000-99@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260208T083000Z
-DTEND:20260208T093000Z
+UID:20260802T093000-99@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260802T093000
+DTEND;TZID=Europe/Amsterdam:20260802T103000
 SUMMARY:Gezamenlijke dienst - Ds. A. Rienks
 DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nGezam
  enlijke dienst NGK's in De Hoeksteen\n\nCollectes:\n- 1e: Kerk\n- 2e: Merc
- y Ships\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog
-  niet bekend\n- Begeleiding: Nog niet bekend
+ y Ships\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet be
+ kend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260208T093000-100@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260208T083000Z
-DTEND:20260208T093000Z
+UID:20260802T093000-100@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260802T093000
+DTEND;TZID=Europe/Amsterdam:20260802T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n- Livestream: Nog niet bekend\n
- - Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Mercy Ships\n\nOverig:\n- Livestream: Niet bekend\n- Geluid
+ stechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260908T093000-102@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260908T083000Z
-DTEND:20260908T093000Z
+UID:20260809T093000-102@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260809T093000
+DTEND;TZID=Europe/Amsterdam:20260809T103000
 SUMMARY:Gezamenlijke dienst - Ds. A. Rienks
 DESCRIPTION:Voorganger: Ds. A. Rienks (Gorinchem)\n\nBijzonderheden:\nGezam
  enlijke dienst NGK's in De Hoeksteen\n\nCollectes:\n- 1e: Kerk\n- 2e: Tear
-  Fund\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog n
- iet bekend\n- Begeleiding: Nog niet bekend
+  Fund\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet beke
+ nd\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260908T093000-103@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260908T083000Z
-DTEND:20260908T093000Z
+UID:20260809T093000-103@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260809T093000
+DTEND;TZID=Europe/Amsterdam:20260809T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Tear Fund\n\nOverig:\n- Livestream: Nog niet bekend\n- 
- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Tear Fund\n\nOverig:\n- Livestream: Niet bekend\n- Geluidst
+ echnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260816T093000-106@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260816T083000Z
-DTEND:20260816T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260816T093000
+DTEND;TZID=Europe/Amsterdam:20260816T103000
 SUMMARY:Ochtenddienst - Ds. K. de Graaf
-DESCRIPTION:Voorganger: Ds. K. de Graaf (Kampen)\n\nBijzonderheden:\nNog ni
- et bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Groot Nieuws Radio\n\nOverig:\n
- - Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Bege
- leiding: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. K. de Graaf (Kampen)\n\nBijzonderheden:\nNiet b
+ ekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Groot Nieuws Radio\n\nOverig:\n- Li
+ vestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Nie
+ t bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260823T093000-109@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260823T083000Z
-DTEND:20260823T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260823T093000
+DTEND;TZID=Europe/Amsterdam:20260823T103000
 SUMMARY:Ochtenddienst - Ds. P.J. Trimp
 DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\
- nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet beke
- nd\n- Begeleiding: Nog niet bekend
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Evangelie en Moslims\n\nOve
+ rig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begele
+ iding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830T093000-111@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260830T083000Z
-DTEND:20260830T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260830T093000
+DTEND;TZID=Europe/Amsterdam:20260830T103000
 SUMMARY:Ochtenddienst - Ds. W. Schaaij
-DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nNog n
- iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: 
- Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog n
- iet bekend
+DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nNiet 
+ bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet
+  bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260830T093000-112@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260830T083000Z
-DTEND:20260830T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260830T093000
+DTEND;TZID=Europe/Amsterdam:20260830T103000
 SUMMARY:Ochtenddienst - Ds. C. van Breemen
-DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream:
-  Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog 
- niet bekend
+DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nie
+ t bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260609T093000-114@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260609T083000Z
-DTEND:20260609T093000Z
+UID:20260906T093000-114@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260906T093000
+DTEND;TZID=Europe/Amsterdam:20260906T103000
 SUMMARY:Ochtenddienst - Ds. J. Meijer
 DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten/Spakeburg)\n\nBijzonderhe
- den:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOv
- erig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\
- n- Begeleiding: Nog niet bekend
+ den:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig
+ :\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleidi
+ ng: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260609T093000-115@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260609T083000Z
-DTEND:20260609T093000Z
+UID:20260906T093000-115@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260906T093000
+DTEND;TZID=Europe/Amsterdam:20260906T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Livestream: Nog niet bekend
- \n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: India Mission\n\nOverig:\n- Livestream: Niet bekend\n- Gelu
+ idstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260913T093000-117@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260913T083000Z
-DTEND:20260913T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260913T093000
+DTEND;TZID=Europe/Amsterdam:20260913T103000
 SUMMARY:Ochtenddienst
 DESCRIPTION:Voorganger: \n\nBijzonderheden:\nStartzondag? Koffiedrinken na 
  de dienst (kring 2)\n\nCollectes:\n- 1e: Kerk\n- 2e: Messias Belijdende Jo
- den\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog nie
- t bekend\n- Begeleiding: Nog niet bekend
+ den\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend
+ \n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260913T093000-118@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260913T083000Z
-DTEND:20260913T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260913T093000
+DTEND;TZID=Europe/Amsterdam:20260913T103000
 SUMMARY:Ochtenddienst - Br. J. de Koning
 DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Messias Belijdende Joden\n
- \nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bek
- end\n- Begeleiding: Nog niet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Messias Belijdende Joden\n\nOv
+ erig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begel
+ eiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260920T093000-120@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260920T083000Z
-DTEND:20260920T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260920T093000
+DTEND;TZID=Europe/Amsterdam:20260920T103000
 SUMMARY:Ochtenddienst - Ds. G. Zomer
-DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Liv
- estream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleidi
- ng: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestr
+ eam: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bek
+ end
 END:VEVENT
 BEGIN:VEVENT
 UID:20260920T093000-122@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260920T083000Z
-DTEND:20260920T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260920T093000
+DTEND;TZID=Europe/Amsterdam:20260920T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Nog niet bekend\n
- - Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Niet bekend\n- Geluid
+ stechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927T093000-124@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260927T083000Z
-DTEND:20260927T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260927T093000
+DTEND;TZID=Europe/Amsterdam:20260927T103000
 SUMMARY:Avondmaalsdienst - Ds. C. van den berg
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
- \nHeilig avondmaal - Lopend\n\nCollectes:\n- 1e: Nog niet bekend\n- 2e: Di
- aconie\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog 
- niet bekend\n- Begeleiding: Nog niet bekend
+ \nHeilig avondmaal - Lopend\n\nCollectes:\n- 2e: Diaconie\n\nOverig:\n- Li
+ vestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Nie
+ t bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20260927T093000-125@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260927T083000Z
-DTEND:20260927T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20260927T093000
+DTEND;TZID=Europe/Amsterdam:20260927T103000
 SUMMARY:Avondmaalsdienst
 DESCRIPTION:Voorganger: \n\nBijzonderheden:\nHeilig avondmaal - Lopend\n\nC
- ollectes:\n- 1e: Nog niet bekend\n- 2e: Diaconie\n\nOverig:\n- Livestream:
-  Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog 
- niet bekend
+ ollectes:\n- 2e: Diaconie\n\nOverig:\n- Livestream: Niet bekend\n- Geluids
+ technicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260410T093000-127@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260410T083000Z
-DTEND:20260410T093000Z
+UID:20261004T093000-127@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261004T093000
+DTEND;TZID=Europe/Amsterdam:20261004T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260410T093000-128@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260410T083000Z
-DTEND:20260410T093000Z
+UID:20261004T093000-128@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261004T093000
+DTEND;TZID=Europe/Amsterdam:20261004T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261110T093000-130@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261110T083000Z
-DTEND:20261110T093000Z
+UID:20261011T093000-130@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261011T093000
+DTEND;TZID=Europe/Amsterdam:20261011T103000
 SUMMARY:Ochtenddienst - Ds. G.P. Hommes
-DESCRIPTION:Voorganger: Ds. G.P. Hommes (Leusden)\n\nBijzonderheden:\nNog n
- iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: International Justice Mission\
- n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet be
- kend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: Ds. G.P. Hommes (Leusden)\n\nBijzonderheden:\nNiet 
+ bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: International Justice Mission\n\nO
+ verig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Bege
+ leiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20261110T093000-131@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261110T083000Z
-DTEND:20261110T093000Z
+UID:20261011T093000-131@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261011T093000
+DTEND;TZID=Europe/Amsterdam:20261011T103000
 SUMMARY:Ochtenddienst - Br. J. de Koning
 DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: International Justice Miss
- ion\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog nie
- t bekend\n- Begeleiding: Nog niet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: International Justice Mission\
+ n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- 
+ Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018T093000-133@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261018T083000Z
-DTEND:20261018T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261018T093000
+DTEND;TZID=Europe/Amsterdam:20261018T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Red een Kind\n\nOverig:\n- Livestream: Nog niet bekend\
- n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Red een Kind\n\nOverig:\n- Livestream: Niet bekend\n- Gelui
+ dstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261018T093000-134@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261018T083000Z
-DTEND:20261018T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261018T093000
+DTEND;TZID=Europe/Amsterdam:20261018T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Red een Kind\n\nOverig:\n- Livestream: Nog niet bekend\
- n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Red een Kind\n\nOverig:\n- Livestream: Niet bekend\n- Gelui
+ dstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025T093000-136@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261025T083000Z
-DTEND:20261025T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261025T093000
+DTEND;TZID=Europe/Amsterdam:20261025T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261025T093000-137@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261025T083000Z
-DTEND:20261025T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261025T093000
+DTEND;TZID=Europe/Amsterdam:20261025T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260111T093000-139@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260111T083000Z
-DTEND:20260111T093000Z
+UID:20261101T093000-139@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261101T093000
+DTEND;TZID=Europe/Amsterdam:20261101T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Nog niet bekend\n
- - Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Niet bekend\n- Geluid
+ stechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260111T093000-140@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260111T083000Z
-DTEND:20260111T093000Z
+UID:20261101T093000-140@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261101T093000
+DTEND;TZID=Europe/Amsterdam:20261101T103000
 SUMMARY:Ochtenddienst - Ds. M. Tel
-DESCRIPTION:Voorganger: Ds. M. Tel (Zaltbommel)\n\nBijzonderheden:\nNog nie
- t bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livest
- ream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding:
-  Nog niet bekend
+DESCRIPTION:Voorganger: Ds. M. Tel (Zaltbommel)\n\nBijzonderheden:\nNiet be
+ kend\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream
+ : Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260811T093000-144@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260811T083000Z
-DTEND:20260811T093000Z
+UID:20261108T093000-144@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261108T093000
+DTEND;TZID=Europe/Amsterdam:20261108T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260811T093000-145@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260811T083000Z
-DTEND:20260811T093000Z
+UID:20261108T093000-145@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261108T093000
+DTEND;TZID=Europe/Amsterdam:20261108T103000
 SUMMARY:Ochtenddienst - Br. J. de Koning
 DESCRIPTION:Voorganger: Br. J. de Koning (Sliedrecht)\n\nBijzonderheden:\nN
- og niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestre
- am: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: N
- og niet bekend
+ iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: 
+ Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115T093000-147@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261115T083000Z
-DTEND:20261115T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261115T093000
+DTEND;TZID=Europe/Amsterdam:20261115T103000
 SUMMARY:Ochtenddienst - Ds. G. Zomer
 DESCRIPTION:Voorganger: Ds. G. Zomer (Waardhuizen)\n\nBijzonderheden:\nDove
  ndienst\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:\n- Lives
- tream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding
- : Nog niet bekend
+ tream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet b
+ ekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261115T093000-148@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261115T083000Z
-DTEND:20261115T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261115T093000
+DTEND;TZID=Europe/Amsterdam:20261115T103000
 SUMMARY:Ochtenddienst - Ds. B. Buitendijk
 DESCRIPTION:Voorganger: Ds. B. Buitendijk (Bunschoten-Oost)\n\nBijzonderhed
- en:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOve
- rig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n
- - Begeleiding: Nog niet bekend
+ en:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: India Mission\n\nOverig:
+ \n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleidin
+ g: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122T093000-150@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261122T083000Z
-DTEND:20261122T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261122T093000
+DTEND;TZID=Europe/Amsterdam:20261122T103000
 SUMMARY:Ochtenddienst - Ds. C. van den berg
 DESCRIPTION:Voorganger: Ds. C. van den berg (Amersfoort)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Lives
- tream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding
- : Nog niet bekend
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestrea
+ m: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet beken
+ d
 END:VEVENT
 BEGIN:VEVENT
 UID:20261122T093000-151@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261122T083000Z
-DTEND:20261122T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261122T093000
+DTEND;TZID=Europe/Amsterdam:20261122T103000
 SUMMARY:Ochtenddienst - Ds. M.K. Drost
 DESCRIPTION:Voorganger: Ds. M.K. Drost (Bunschoten-West)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Lives
- tream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding
- : Nog niet bekend
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestrea
+ m: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet beken
+ d
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129T093000-153@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261129T083000Z
-DTEND:20261129T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261129T093000
+DTEND;TZID=Europe/Amsterdam:20261129T103000
 SUMMARY:Ochtenddienst - Ds. G.P. Hommes
-DESCRIPTION:Voorganger: Ds. G.P. Hommes (Leusden)\n\nBijzonderheden:\nNog n
- iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: ZOA\n\nOverig:\n- Livestream: 
- Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog n
- iet bekend
+DESCRIPTION:Voorganger: Ds. G.P. Hommes (Leusden)\n\nBijzonderheden:\nNiet 
+ bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: ZOA\n\nOverig:\n- Livestream: Niet
+  bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261129T093000-154@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261129T083000Z
-DTEND:20261129T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261129T093000
+DTEND;TZID=Europe/Amsterdam:20261129T103000
 SUMMARY:Ochtenddienst - Ds. C. van Breemen
-DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNog 
- niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: ZOA\n\nOverig:\n- Livestream:
-  Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog 
- niet bekend
+DESCRIPTION:Voorganger: Ds. C. van Breemen (Zeist)\n\nBijzonderheden:\nNiet
+  bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: ZOA\n\nOverig:\n- Livestream: Nie
+ t bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260612T093000-156@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260612T083000Z
-DTEND:20260612T093000Z
+UID:20261206T093000-156@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261206T093000
+DTEND;TZID=Europe/Amsterdam:20261206T103000
 SUMMARY:Ochtenddienst - Ds. P.J. Trimp
 DESCRIPTION:Voorganger: Ds. P.J. Trimp (Emeritus - Goes)\n\nBijzonderheden:
- \nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltij
- d\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet 
- bekend\n- Begeleiding: Nog niet bekend
+ \nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maaltijd\n\
+ nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Be
+ geleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
-UID:20260612T093000-157@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20260612T083000Z
-DTEND:20260612T093000Z
+UID:20261206T093000-157@kerk.nl
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261206T093000
+DTEND;TZID=Europe/Amsterdam:20261206T103000
 SUMMARY:Ochtenddienst - Ds. A. Wilschut
 DESCRIPTION:Voorganger: Ds. A. Wilschut (Berkel en Rodenrijs)\n\nBijzonderh
- eden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Ma
- altijd\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog 
- niet bekend\n- Begeleiding: Nog niet bekend
+ eden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: VSE\n- 3e: Open Maalti
+ jd\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\
+ n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261213T093000-159@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261213T083000Z
-DTEND:20261213T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261213T093000
+DTEND;TZID=Europe/Amsterdam:20261213T103000
 SUMMARY:Ochtenddienst - Ds. W. Schaaij
-DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nNog n
- iet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Compassion\n\nOverig:\n- Lives
- tream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n- Begeleiding
- : Nog niet bekend
+DESCRIPTION:Voorganger: Ds. W. Schaaij (Zeewolde)\n\nBijzonderheden:\nNiet 
+ bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Compassion\n\nOverig:\n- Livestrea
+ m: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding: Niet beken
+ d
 END:VEVENT
 BEGIN:VEVENT
 UID:20261213T093000-160@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261213T083000Z
-DTEND:20261213T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261213T093000
+DTEND;TZID=Europe/Amsterdam:20261213T103000
 SUMMARY:Ochtenddienst - Ds. J. Meijer
 DESCRIPTION:Voorganger: Ds. J. Meijer (Bunschoten/Spakenburg)\n\nBijzonderh
- eden:\nNog niet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Compassion\n\nOver
- ig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet bekend\n-
-  Begeleiding: Nog niet bekend
+ eden:\nNiet bekend\n\nCollectes:\n- 1e: Kerk\n- 2e: Compassion\n\nOverig:\
+ n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- Begeleiding
+ : Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261220T093000-162@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261220T083000Z
-DTEND:20261220T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261220T093000
+DTEND;TZID=Europe/Amsterdam:20261220T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261220T093000-163@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261220T083000Z
-DTEND:20261220T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261220T093000
+DTEND;TZID=Europe/Amsterdam:20261220T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: VSE\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnic
+ us: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20251225T093000-165@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20251225T083000Z
-DTEND:20251225T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20251225T093000
+DTEND;TZID=Europe/Amsterdam:20251225T103000
 SUMMARY:Kerstdienst
 DESCRIPTION:Voorganger: \n\nBijzonderheden:\nKerst\n\nCollectes:\n- 1e: Ker
- k\n- 2e: India Mission\n\nOverig:\n- Livestream: Nog niet bekend\n- Geluid
- stechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+ k\n- 2e: India Mission\n\nOverig:\n- Livestream: Niet bekend\n- Geluidstec
+ hnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261227T093000-167@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261227T083000Z
-DTEND:20261227T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261227T093000
+DTEND;TZID=Europe/Amsterdam:20261227T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Nog niet bekend\n
- - Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Niet bekend\n- Geluid
+ stechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20261227T093000-168@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20261227T083000Z
-DTEND:20261227T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20261227T093000
+DTEND;TZID=Europe/Amsterdam:20261227T103000
 SUMMARY:Ochtenddienst
-DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNog niet bekend\n\nCollectes:\
- n- 1e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Nog niet bekend\n
- - Geluidstechnicus: Nog niet bekend\n- Begeleiding: Nog niet bekend
+DESCRIPTION:Voorganger: \n\nBijzonderheden:\nNiet bekend\n\nCollectes:\n- 1
+ e: Kerk\n- 2e: Kerkverband\n\nOverig:\n- Livestream: Niet bekend\n- Geluid
+ stechnicus: Niet bekend\n- Begeleiding: Niet bekend
 END:VEVENT
 BEGIN:VEVENT
 UID:20281231T093000-170@kerk.nl
-DTSTAMP:20260331T102947Z
-DTSTART:20281231T083000Z
-DTEND:20281231T093000Z
+DTSTAMP:20260331T110246Z
+DTSTART;TZID=Europe/Amsterdam:20281231T093000
+DTEND;TZID=Europe/Amsterdam:20281231T103000
 SUMMARY:Gezamenlijke dienst
 DESCRIPTION:Voorganger: \n\nBijzonderheden:\nOudjaarsavond / Gezamenlijke d
  ienst NGK's in De Hoeksteen\n\nCollectes:\n- 1e: Kerk\n- 2e: Kerk in Nood\
- n\nOverig:\n- Livestream: Nog niet bekend\n- Geluidstechnicus: Nog niet be
- kend\n- Begeleiding: Nog niet bekend
+ n\nOverig:\n- Livestream: Niet bekend\n- Geluidstechnicus: Niet bekend\n- 
+ Begeleiding: Niet bekend
 END:VEVENT
 END:VCALENDAR
